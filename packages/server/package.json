@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "LitvE <yevgen.litvinov1980@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "",
+  "directories": {},
+  "files": [],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.13.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
