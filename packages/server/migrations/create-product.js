@@ -15,10 +15,10 @@ module.exports = {
         type: Sequelize.STRING
       },
       price: {
-        type: Sequelize.FLOAT
+        type: Sequelize.DECIMAL(10, 2)
       },
       images: {
-        type: Sequelize.ARRAY
+        type: Sequelize.ARRAY(Sequelize.STRING),
       },
       createdAt: {
         allowNull: false,
